@@ -2,7 +2,7 @@ backend:
   name: github
   repo: Negev-Web-Dev/Negev-Web-Dev.github.io
   branch: main
-  site_domain: negev-web-dev.github.io
+  site_domain: hardcore-mayer-760ceb.netlify.app
 
 media_folder: "images/uploads"
 
