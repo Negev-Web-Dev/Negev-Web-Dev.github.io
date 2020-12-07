@@ -52,6 +52,7 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
+    "deploy": "gatsby build && gh-pages -d public -b public",
     "start": "npm run clean && npm run develop",
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -62,6 +63,7 @@
   },
   "devDependencies": {
     "del-cli": "^3.0.0",
+    "gh-pages": "^3.1.0",
     "prettier": "^1.18.2"
   }
 }
