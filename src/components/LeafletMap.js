@@ -22,19 +22,22 @@ class LeafletMap extends Component {
   }
 
   render() {
-    return (
+    if (typeof window !== 'undefined') {
+      return (
         <MapContainer center={this.props.position} zoom={this.props.zoom} style={{ height: '50vh', width: '100%' }}>
           <TileLayer
             url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"
             attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
           />
           {this.props.markerText !== "" &&
-            <Marker position={this.props.position}>
-              <Popup>{this.props.markerText}</Popup>
-            </Marker>
+          <Marker position={this.props.position}>
+            <Popup>{this.props.markerText}</Popup>
+          </Marker>
           }
         </MapContainer>
-    );
+      );
+    }
+    return null
   }
 }
 
