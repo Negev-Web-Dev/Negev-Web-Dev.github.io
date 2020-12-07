@@ -18,12 +18,13 @@ meta:
   title: Contact Page
 ---
 
-# Example contact form
+# You can take part in our community on the following platforms:
 
-This form is setup to use Netlify's form handling:
+- Our [Facebook group](https://www.facebook.com/groups/145321082797079)
+- Our [Meetup](https://www.meetup.com/NegevDev/)
+- Our [Youtube Channel](https://www.youtube.com/channel/UCeb23koM86s-w9534jdRxIQ)
+- Our [Telegram Channel](https://t.me/negevWeb)
+- Our [What'sApp Group](https://chat.whatsapp.com/KDDqvR09Esp7eL3y9uukZh)
 
-- the form action is set to the current absolute url: `action: '/contact/'`
-- a name attribute is sent with the form's data `'form-name': 'Contact'`
-- netlify data attributes are added to the form `data-netlify data-netlify-honeypot`
-
-Find out more in the [Netlify Docs](https://www.netlify.com/docs/form-handling/).
+Having ideas on improving our community?    
+please contact us via email or phone.
