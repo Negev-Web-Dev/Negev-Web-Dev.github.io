@@ -7,11 +7,11 @@ subtitle: Come and visit us!
 address: |-
   Gav-Yam Negev Tech Park,
   HaEnergia 77, Beersheba
-phone: "123"
+phone: "+972 50-600-6033"
 email: hi@negevweb.dev
 locations:
-  - lat: "-27.9654732"
-    lng: "153.2432449"
+  - lat: "31.26382"
+    lng: "34.81114"
     mapLink: ""
 meta:
   description: Negev Web Developer community - contact page
