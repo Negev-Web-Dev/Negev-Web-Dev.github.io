@@ -34,7 +34,7 @@ export const ContactPageTemplate = ({
             {address && (
               <a
                 className="Contact--Details--Item"
-                href={`https://www.google.com.au/maps/search/${encodeURI(
+                href={`https://www.google.co.il/maps/search/${encodeURI(
                   address
                 )}`}
                 target="_blank"
@@ -57,7 +57,7 @@ export const ContactPageTemplate = ({
         </div>
 
         <div>
-          <FormSimpleAjax name="Simple Form Ajax" />
+          <FormSimpleAjax name="Contact NWD" />
         </div>
       </div>
     </section>
