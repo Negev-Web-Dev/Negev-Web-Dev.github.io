@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
-import React from 'react';
+import React from 'react'
 
-const commentNodeId = 'comments';
+const commentNodeId = 'comments'
 
 const Comment = () => {
   useEffect(() => {
@@ -16,16 +16,16 @@ const Comment = () => {
     script.setAttribute('theme', 'github-light')
     script.setAttribute('crossorigin', 'anonymous')
 
-    const scriptParentNode = document.getElementById(commentNodeId);
-    scriptParentNode.appendChild(script);
+    const scriptParentNode = document.getElementById(commentNodeId)
+    scriptParentNode.appendChild(script)
 
     return () => {
       // cleanup - remove the older script with previous theme
-      scriptParentNode.removeChild(scriptParentNode.firstChild);
-    };
-  }, []);
+      scriptParentNode.removeChild(scriptParentNode.firstChild)
+    }
+  }, [])
 
-  return <div id={commentNodeId} />;
-};
+  return <div id={commentNodeId} />
+}
 
-export default Comment;
+export default Comment

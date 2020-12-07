@@ -38,8 +38,7 @@ export default ({ children, meta, title }) => {
         }
       `}
       render={data => {
-        const { siteTitle, socialMediaCard } =
-            data.settingsYaml || {},
+        const { siteTitle, socialMediaCard } = data.settingsYaml || {},
           subNav = {
             posts: data.allPosts.hasOwnProperty('edges')
               ? data.allPosts.edges.map(post => {

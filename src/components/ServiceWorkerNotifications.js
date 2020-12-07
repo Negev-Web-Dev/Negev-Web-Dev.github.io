@@ -55,7 +55,7 @@ export default class ServiceWorkerNotifications extends Component {
     this.setState({ message: null })
   }
 
-  render () {
+  render() {
     this.props.reloadOnUpdate && this.reloadIfUpdated()
     return null
   }

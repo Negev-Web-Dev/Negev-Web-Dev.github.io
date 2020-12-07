@@ -31,7 +31,7 @@ const Schema = ({
 
   return (
     <script
-      type='application/ld+json'
+      type="application/ld+json"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
     />
   )

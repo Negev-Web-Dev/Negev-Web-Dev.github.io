@@ -59,9 +59,8 @@ export const ContactPageTemplate = ({
     <LeafletMap
       position={[locations[0].lat, locations[0].lng]}
       zoom={17}
-      markerText={"Hello"}
+      markerText={'Hello'}
     />
-
   </main>
 )
 

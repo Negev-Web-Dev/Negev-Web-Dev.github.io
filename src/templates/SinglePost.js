@@ -1,11 +1,11 @@
-import React, {Fragment} from 'react'
+import React, { Fragment } from 'react'
 import _get from 'lodash/get'
 import { Link, graphql } from 'gatsby'
 import { ChevronLeft } from 'react-feather'
 
 import Content from '../components/Content'
 import Layout from '../components/Layout'
-import Comment from "../components/Comment";
+import Comment from '../components/Comment'
 import './SinglePost.css'
 
 export const SinglePostTemplate = ({
@@ -46,10 +46,10 @@ export const SinglePostTemplate = ({
                       key={cat.category}
                       className="SinglePost--Meta--Category"
                     >
-                    {cat.category}
+                      {cat.category}
                       {/* Add a comma on all but last category */}
                       {index !== categories.length - 1 ? ',' : ''}
-                  </span>
+                    </span>
                   ))}
                 </Fragment>
               )}
