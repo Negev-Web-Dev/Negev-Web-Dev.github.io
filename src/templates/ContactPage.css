@@ -1,4 +1,15 @@
 .Contact {
+  
+}
+
+.links p{
+  display: flex;
+  justify-content:space-between;
+}
+.links .gatsby-resp-image-wrapper{
+  width: 32px;
+  height: 32px;
+  display: inline-block;
 }
 
 .Contact--Details {

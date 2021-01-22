@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: Contact Page
-featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
+featuredImage: https://pbs.twimg.com/profile_banners/1191746068620423168/1572971125/1500x500
 subtitle: Come and visit us!
 address: |-
   Gav-Yam Negev Tech Park,
@@ -20,11 +20,17 @@ meta:
 
 # You can take part in our community on the following platforms:
 
-- Our [Facebook group](https://www.facebook.com/groups/145321082797079)
-- Our [Meetup](https://www.meetup.com/NegevDev/)
-- Our [Youtube Channel](https://www.youtube.com/channel/UCeb23koM86s-w9534jdRxIQ)
-- Our [Telegram Channel](https://t.me/negevWeb)
-- Our [What'sApp Group](https://chat.whatsapp.com/KDDqvR09Esp7eL3y9uukZh)
+<div class="links">
 
-Having ideas on improving our community?    
+[![Facebook group](./static/images/facebook-32x32.png)](https://www.facebook.com/groups/145321082797079)
+[![Meetup group](./static/images//meetup-32x32.png)](https://www.meetup.com/NegevDev/)
+[![Youtube Channel](./static/images/youtube-32x32.png)](https://www.youtube.com/channel/UCeb23koM86s-w9534jdRxIQ)
+[![Telegram Channel](./static/images/Telegram-icon.png)](https://t.me/negevWeb)
+[![What'sApp Group](./static/images/Apps-Whatsapp-icon.png)](https://chat.whatsapp.com/KDDqvR09Esp7eL3y9uukZh)
+[![linkedin](./static/images//linkedin-32x32.png)](https://linkedin.com/company/42092006/)
+[![Fallow us in twitter](./static/images/twitter-32x32.png)](https://twitter.com/NegevDev)
+
+</div>
+
+Having ideas on improving our community?
 please contact us via email or phone.
