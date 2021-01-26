@@ -6,6 +6,8 @@
 
 .PageHeader .BackgroundImage {
   opacity: 0.8;
+  outline: solid 1px #fff;
+  outline-offset: -5px;
 }
 
 .PageHeader-large {
@@ -15,6 +17,7 @@
 .PageHeader--Title {
   font-size: 6rem;
   margin-bottom: 0;
+  text-shadow: var(--darkGrey) 1px 1px;
 }
 
 .PageHeader--Subtitle {
